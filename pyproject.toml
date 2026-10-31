@@ -1,0 +1,27 @@
+[project]
+name = "fisioapp"
+version = "1.0.0"
+description = "Local physiotherapy clinic management for patients, evaluations, medical records, appointments, and attachments."
+requires-python = ">=3.12"
+authors = [
+    { name = "Monique Brito Fidalgo", email = "britofidalgo@gmail.com" }
+]
+dependencies = [
+    "flet",
+    "reportlab"
+]
+
+[dependency-groups]
+dev = [
+    "flet-cli",
+    "flet-desktop",
+    "flet-web"
+]
+
+[tool.flet.metadata]
+title = "FisioApp"
+
+[tool.flet]
+org = "dev.flet"
+company = "Monique Brito Fidalgo"
+copyright = "Copyright (C) 2026 by Monique Brito Fidalgo"
